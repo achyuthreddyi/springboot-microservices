@@ -4,15 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1682c388-64ea-4649-8bd2-9a7c6722b388" name="Changes" comment="removes tests from product service">
+    <list default="true" id="1682c388-64ea-4649-8bd2-9a7c6722b388" name="Changes" comment="updates name of product service">
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/achyuthreddyi/inventoryservice/dto/InventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/achyuthreddyi/orderservice/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/achyuthreddyi/orderservice/dto/InventoryResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/achyuthreddyi/inventoryservice/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/achyuthreddyi/inventoryservice/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/achyuthreddyi/inventoryservice/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/achyuthreddyi/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/achyuthreddyi/inventoryservice/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/achyuthreddyi/inventoryservice/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/achyuthreddyi/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/achyuthreddyi/orderservice/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/achyuthreddyi/productservicetestmaven/ProductServiceTestMavenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/achyuthreddyi/productservicetestmaven/ProductServiceApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,11 +33,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
@@ -60,7 +77,7 @@
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProductServiceApplication">
+  <component name="RunManager" selected="Application.OrderServiceApplication">
     <configuration name="InventoryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.achyuthreddyi.inventoryservice.InventoryServiceApplication" />
       <module name="inventory-service" />
@@ -115,9 +132,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductServiceApplication" />
         <item itemvalue="Application.InventoryServiceApplication" />
         <item itemvalue="Application.OrderServiceApplication" />
+        <item itemvalue="Application.ProductServiceApplication" />
         <item itemvalue="Application.ProductServiceTestMavenApplication" />
       </list>
     </recent_temporary>
@@ -180,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674346961578</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updates name of product service">
+      <created>1674386037486</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674386037487</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +226,7 @@
     <MESSAGE value="imports order service" />
     <MESSAGE value="imports inventory service" />
     <MESSAGE value="removes tests from product service" />
-    <option name="LAST_COMMIT_MESSAGE" value="removes tests from product service" />
+    <MESSAGE value="updates name of product service" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates name of product service" />
   </component>
 </project>
